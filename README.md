@@ -1,7 +1,7 @@
 # Day 3 Assignment – Agentic AI Bootcamp
 ### Prompting That Ships – Production Hardening
 
-A minimal but production-hardened customer support agent built with **LangChain + OpenAI**.
+A minimal but production-hardened customer support agent built with **LangChain + Google Generative AI**.
 
 ---
 
@@ -25,7 +25,7 @@ agentic-day3-production/
 ├── prompts/
 │   └── support_agent_v1.yaml    ← system prompt (Prompts as Code)
 ├── requirements.txt             ← Python dependencies
-├── .env.example                 ← safe template – copy to .env
+├── .env                         ← your API key (not committed)
 ├── .gitignore                   ← .env is excluded here
 └── README.md                    ← this file
 ```
@@ -47,8 +47,8 @@ conda activate ./env
 pip install -r requirements.txt
 
 # 4. Set up your API key
-cp .env.example .env
-# Open .env and replace the placeholder with your real OpenAI key
+# Create a .env file in the project root and add your Google API key:
+# GOOGLE_API_KEY=your_actual_api_key_here
 ```
 
 > ⚠️ **WARNING: Never commit `.env` to Git.** It contains your secret API key.
