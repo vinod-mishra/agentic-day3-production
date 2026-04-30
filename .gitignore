@@ -1,0 +1,10 @@
+.env
+*.env
+/.env
+.env
+/env/
+__pycache__/
+*.pyc
+/__pycache__/
+/Week-2/__pycache__/
+/Week-3-RAG/rag_demo/env/

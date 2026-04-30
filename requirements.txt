@@ -1,0 +1,71 @@
+# Core Dependencies
+langchain
+langchain-openai
+langchain-core
+langchain-community
+langchain-text-splitters
+langgraph
+langchain_community
+langchain_text_splitters
+langchain_google_genai
+python_dotenv
+tavily
+deepagents
+# Utilities
+python-dotenv
+pydantic
+PyYAML
+
+# Testing
+pytest
+pytest-asyncio
+pytest-mock
+
+# Optional (for development)
+black
+flake8
+mypy
+pgvector
+psycopg2-binary
+pypdf
+PyPDF2
+pdfplumber
+reportlab
+python-docx
+beautifulsoup4
+python-magic
+lxml
+pytesseract
+pdf2image
+langchain-postgres
+
+# Note: Tesseract OCR binary must be installed separately
+# macOS: brew install tesseract ,  brew install poppler
+# Ubuntu: apt-get install tesseract-ocr
+# Windows: Download from GitHub
+
+sentence-transformers # For embeddings and reranking
+tiktoken # For tokenization
+tqdm # For progress bars
+colorama  # For colored terminal output
+
+# Development & Testing
+pytest
+pytest-cov
+black # Code formatting
+flake8 # Linting
+
+# Optional: For hybrid search (BM25)
+rank-bm25 # For hybrid search
+
+# Embeddings t-SNE visualization demo (05d_embeddings_tsne_viz.py)
+openai
+scikit-learn
+matplotlib
+boto3 
+tiktoken 
+python-dotenv
+langchain-community
+amazon-textract-caller>=0.2.0
+amazon-textract-textractor
+botocore[crt]
